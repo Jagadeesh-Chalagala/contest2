@@ -1,0 +1,95 @@
+*{
+    font-family: 'Poppins';
+    background: #000;    
+    color: white;
+}
+
+
+/* header  */
+
+header{
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header > input{
+    height: 53px;
+    width: 597px;
+    left: 319px;
+    top: 33px;
+    border-radius: 15px;
+
+}
+header button{
+    background-color: #222;
+    height: 53px;
+    width: 134px;
+    left: 958px;
+    top: 33px;
+    border-radius: 15px;
+
+}
+
+
+
+
+/* main  */
+
+.imgdes img{
+    background-image: url('./images/yellowbutton.png') ;
+    background-size: auto;
+    background-repeat: no-repeat;
+} 
+.categories{
+    margin: 30px;
+    align-items: center;
+    align-content: space-between;
+}
+.category{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-between;
+    margin: 20px;
+}
+
+.cat-item{
+    padding: 20px;
+    height: 291px;
+    width: 346px;
+    border-radius: 20px;
+    position: relative;
+    width: 346.44329833984375px;
+    background-color:  1F1F1F;
+}
+.knowmore{
+    position: absolute;
+    width: 169.44px;
+    height: 58px;
+    bottom: 20px;
+    right: 17.9px;
+    color: black;
+    background-color: #FECB03;
+    border-radius: 50px;
+}
+
+/* footer  */
+
+footer{
+   margin: 20px; 
+}
+
+.foot{
+    display: flex;
+    justify-content: space-between;
+}
+.foot1 p{
+    width: 50%;
+}
+
+
+
+
+
